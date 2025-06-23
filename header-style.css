@@ -18,9 +18,112 @@
 
 body {
     font-family: "Bebas Neue", sans-serif;
-    background-color: #30323D;
+    background-color: #252627;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(imgs/fondo-img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFF9FB;
+    font-size: 30px;
+}
+
+.menu .nabvar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .nabvar ul li a {
+    font-size: 18px;
+    padding: 23px;
+    color: #FFF9FB;
+    display: block;
+    transition-duration: 1.5s;
+    transition-property: font-size;
+    transition-timing-function: ease-out;
+}
+
+.menu .nabvar ul li a:hover {
+    color: #FFF9F2;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px #D3D4D9;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    width: 50%;
+}
+
+.header-txt h1 {
+    font-size: 105px;
+    line-height: 110px;
+    color: #D3D4D9;
+    margin-bottom: 25px;
+}
+
+.header-txt p {
+    font-size: 16px;
+    color: #D3D4D9;
+    margin-bottom: 15px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #D3D4D9;
+    border-radius: 10px;
+    color: #252627;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition-property: padding;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.btn-1:hover {
+    padding: 20px;
 }

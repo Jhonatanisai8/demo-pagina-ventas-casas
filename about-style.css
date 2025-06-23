@@ -1,0 +1,30 @@
+.about {
+    padding: 100px 0;
+    display: flex;
+}
+
+.about-txt {
+    width: 50%;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px #F2EFE9;
+}
+
+h2 {
+    font-size: 70px;
+    color: #F2EFE9;
+    margin-bottom: 15px;
+}
+
+.about-txt p {
+    font-size: 16px;
+    color: #F2EFE9;
+    margin-bottom: 35px;
+}
